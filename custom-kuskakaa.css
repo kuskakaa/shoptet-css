@@ -108,18 +108,25 @@ input[type="number"]:focus {
   gap: 10px !important;
 }
 
-/* Zaoblení search inputu */
+/* Zaoblení search inputu - silnější verze */
+input.search-input,
+input.query-input,
 .search-input,
 .query-input,
+.js-search-input,
 input[type="search"] {
   border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
-  border: 1px solid #ddd !important;
-  transition: border-color 0.2s ease !important;
 }
 
-.search-input:focus,
-.query-input:focus,
+.search-form input,
+.search input {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+}
+
+input.search-input:focus,
+input.query-input:focus,
 input[type="search"]:focus {
   border-color: #057A00 !important;
   outline: none !important;
