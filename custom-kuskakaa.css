@@ -1,33 +1,5 @@
 /* Zaoblení obrázků 2026 */
 
-/* Zaoblení carousel a bannerů */
-
-.carousel,
-.carousel-inner,
-.carousel .item {
-  border-radius: 15px !important;
-  -webkit-border-radius: 15px !important;
-  overflow: hidden !important;
-}
-
-/* Zaoblení side bannerů */
-.banner-wrapper {
-  border-radius: 12px !important;
-  -webkit-border-radius: 12px !important;
-  overflow: hidden !important;
-}
-
-.banner-wrapper img {
-  border-radius: 12px !important;
-  -webkit-border-radius: 12px !important;
-}
-
-.next-to-carousel-banners {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 10px !important;
-}
-
 /* Vychozi zaobleni obrazku */
 img {
   border-radius: 10px !important;
@@ -107,4 +79,31 @@ input[type="number"]:focus {
 /* Zaobleni policka na pocet kusu */
 .quantity {
   border-radius: 10px;
+}
+
+/* Zaoblení carousel a bannerů */
+.carousel,
+.carousel-inner,
+.carousel .item {
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+/* Zaoblení side bannerů */
+.banner-wrapper {
+  border-radius: 12px !important;
+  -webkit-border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.banner-wrapper img {
+  border-radius: 12px !important;
+  -webkit-border-radius: 12px !important;
+}
+
+.next-to-carousel-banners {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
 }
