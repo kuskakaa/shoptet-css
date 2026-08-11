@@ -5,7 +5,7 @@
 .carousel,
 .carousel-inner,
 .carousel .item {
-  border-radius: 50px !important;
+  border-radius: 15px !important;
   -webkit-border-radius: 15px !important;
   overflow: hidden !important;
 }
