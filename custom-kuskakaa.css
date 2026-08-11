@@ -125,3 +125,30 @@ input[type="search"]:focus {
   outline: none !important;
   box-shadow: 0 0 0 2px rgba(5, 122, 0, 0.1) !important;
 }
+
+/* Zaoblení menu items na hover */
+.menu-level-1 li {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.menu-level-1 li a {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  display: block !important;
+  padding: 8px 12px !important;
+  transition: all 0.2s ease !important;
+}
+
+.menu-level-1 li a:hover {
+  background-color: rgba(5, 122, 0, 0.1) !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+}
+
+.menu-level-1 li a.active {
+  background-color: rgba(5, 122, 0, 0.15) !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+}
