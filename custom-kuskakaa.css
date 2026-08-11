@@ -126,29 +126,19 @@ input[type="search"]:focus {
   box-shadow: 0 0 0 2px rgba(5, 122, 0, 0.1) !important;
 }
 
-/* Zaoblení menu items na hover */
-.menu-level-1 li {
-  border-radius: 8px !important;
-  -webkit-border-radius: 8px !important;
-  transition: all 0.2s ease !important;
-}
-
-.menu-level-1 li a {
-  border-radius: 8px !important;
-  -webkit-border-radius: 8px !important;
-  display: block !important;
-  padding: 8px 12px !important;
-  transition: all 0.2s ease !important;
-}
-
-.menu-level-1 li a:hover {
-  background-color: rgba(5, 122, 0, 0.1) !important;
-  border-radius: 8px !important;
-  -webkit-border-radius: 8px !important;
-}
-
-.menu-level-1 li a.active {
-  background-color: rgba(5, 122, 0, 0.15) !important;
+/* Zaoblení menu items */
+.menu-item-898 a,
+.menu-item-735 a,
+.menu-item-908 a,
+.menu-item-external-154 a,
+.menu-item-717 a,
+.menu-item-794 a,
+.menu-item-925 a,
+.menu-item-967 a,
+.menu-item-863 a,
+.menu-item-905 a,
+.menu-item-882 a,
+.headerMenuItem {
   border-radius: 8px !important;
   -webkit-border-radius: 8px !important;
 }
