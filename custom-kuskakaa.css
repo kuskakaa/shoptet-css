@@ -33,7 +33,7 @@ img {
   border-radius: 0 !important;
 }
 
-/* Zaobleni tlacitek */
+/* Zaobleni tlacitek 
 .add-to-cart-button,
 .btn-conversion,
 button,
@@ -58,6 +58,7 @@ button:active,
   transform: translateY(0) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
+*/
 
 /* Zaobleni selectu a inputu */
 select.form-control,
