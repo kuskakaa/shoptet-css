@@ -34,7 +34,14 @@ img {
 }
 
 /* Zaobleni tlacitek */
-
+.add-to-cart-button,
+.btn-conversion,
+button,
+.btn {
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
 
 .add-to-cart-button:hover,
 .btn-conversion:hover,
