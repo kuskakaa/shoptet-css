@@ -33,35 +33,50 @@ img {
   border-radius: 0 !important;
 }
 
+/* Zaobleni tlacitek */
+.add-to-cart-button,
+.btn-conversion,
+button,
+.btn {
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.add-to-cart-button:hover,
+.btn-conversion:hover,
+button:hover,
+.btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.add-to-cart-button:active,
+.btn-conversion:active,
+button:active,
+.btn:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Zaobleni selectu a inputu */
+select.form-control,
+.amount,
+input[type="number"] {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+  transition: border-color 0.2s ease !important;
+}
+
+select.form-control:focus,
+.amount:focus,
+input[type="number"]:focus {
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
 
 /* Zaobleni policka na pocet kusu */
 .quantity {
   border-radius: 10px;
-}
-
-/* Zaoblení carousel a bannerů */
-.carousel,
-.carousel-inner,
-.carousel .item {
-  border-radius: 15px !important;
-  -webkit-border-radius: 15px !important;
-  overflow: hidden !important;
-}
-
-/* Zaoblení side bannerů */
-.banner-wrapper {
-  border-radius: 12px !important;
-  -webkit-border-radius: 12px !important;
-  overflow: hidden !important;
-}
-
-.banner-wrapper img {
-  border-radius: 12px !important;
-  -webkit-border-radius: 12px !important;
-}
-
-.next-to-carousel-banners {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 10px !important;
 }
