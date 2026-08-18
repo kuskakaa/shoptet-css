@@ -33,49 +33,6 @@ img {
   border-radius: 0 !important;
 }
 
-/* Zaobleni tlacitek 
-.add-to-cart-button,
-.btn-conversion,
-button,
-.btn {
-  border-radius: 15px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
-  transition: all 0.3s ease !important;
-}
-
-.add-to-cart-button:hover,
-.btn-conversion:hover,
-button:hover,
-.btn:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
-}
-
-.add-to-cart-button:active,
-.btn-conversion:active,
-button:active,
-.btn:active {
-  transform: translateY(0) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
-}
-*/
-
-/* Zaobleni selectu a inputu */
-select.form-control,
-.amount,
-input[type="number"] {
-  border-radius: 8px !important;
-  -webkit-border-radius: 8px !important;
-  border: 1px solid #ccc !important;
-  transition: border-color 0.2s ease !important;
-}
-
-select.form-control:focus,
-.amount:focus,
-input[type="number"]:focus {
-  border-color: #ccc !important;
-  box-shadow: none !important;
-}
 
 /* Zaobleni policka na pocet kusu */
 .quantity {
@@ -107,22 +64,4 @@ input[type="number"]:focus {
   display: flex !important;
   flex-direction: column !important;
   gap: 10px !important;
-}
-
-/* Zaoblení search inputu */
-.search-input,
-.query-input,
-input[type="search"] {
-  border-radius: 8px !important;
-  -webkit-border-radius: 8px !important;
-  border: 1px solid #ddd !important;
-  transition: border-color 0.2s ease !important;
-}
-
-.search-input:focus,
-.query-input:focus,
-input[type="search"]:focus {
-  border-color: #057A00 !important;
-  outline: none !important;
-  box-shadow: 0 0 0 2px rgba(5, 122, 0, 0.1) !important;
 }
